@@ -9,6 +9,8 @@ class Humano
 
 end
 
+
+
 #Crear Gerardo
 gerardo = Humano.new("Gerardo Hernandez", 20, "Masculino")
 puts gerardo.name
