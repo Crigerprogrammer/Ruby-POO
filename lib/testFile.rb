@@ -1,5 +1,7 @@
 class Humano
-	attr_accessor :name, :age, :genre
+	attr_accessor :age
+	attr_reader :name
+	attr_writer :genres
 
 	def initialize(name, age, genre)
 		@name = name
