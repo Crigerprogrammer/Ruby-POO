@@ -1,4 +1,11 @@
+module Greeter
+	def greet
+		puts "Hola"
+	end
+end
+
 class Humano
+	include Greeter
 	attr_accessor :age
 	attr_reader :name
 	attr_writer :genres
